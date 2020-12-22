@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css" integrity="sha512-/zs32ZEJh+/EO2N1b0PEdoA10JkdC3zJ8L5FTiQu82LR9S/rOQNfQN7U59U9BC12swNeRAz3HSzIL2vpp4fv3w==" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InteliBoarTestApp</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="headerWrapper">
+               <div class="navSide headerWrapper">
+                <div class="headerLogo">
+                    <a href="/" class="headerLogoLink">
+                        <img src="./img/svg/logo.svg" alt="logo" class="headerLogoPic">
+                    </a>
+                </div>
+                <div class="demoConnection">
+                    <div class="demoIcon">
+                        <a href="/" class="demoIconLink">
+                            <img src="./img/svg/header-demo-icon.svg" alt="logo" class="demoIconPic">
+                        </a>
+                    </div>
+                <div class="demoText">
+                    <h1 class="demoTittle">
+                        IB Demo Connection
+                    </h1>
+                    <div class="demoLink">
+                        <a href="/" class="demoIconLink">
+                            https://app.intelliboard.net/
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <nav class="headerNav">
+                    <ul class="headerList">
+                        <li class="headerItem">
+                            <a href="#!" class="headerLink">Dashboard</a>
+                        </li>
+                        <li class="headerItem">
+                            <a href="#!" class="headerLink">Analytics</a>
+                        </li>
+                        <li class="headerItem">
+                            <a href="#!" class="headerLink">Forecast</a>
+                        </li>
+                        <li class="headerItem">
+                            <a href="#!" class="headerLink">Metrics</a>
+                        </li>
+                    </ul>
+                    <div class="headerNavClose">
+                        <span class="headerNavCloseLine"></span>
+                        <span class="headerNavCloseLine"></span>
+                    </div>
+                </nav>
+                <div class="headerBurger burger">
+                    <span class="burgerLine"></span>
+                    <span class="burgerLine"></span>
+                    <span class="burgerLine"></span>
+                </div>
+               </div>
+               <div class="contactSide headerWrapper">
+                <div class="contactIconItem">
+                    <a href="/" class="headerBellIconLink">
+                        <img src="./img/svg/header-bell-icon.svg" alt="logo" class="headerBellIconPic">
+                    </a>
+                </div>
+                <div class="contactIconItem">
+                    <a href="/" class="emailIconLink">
+                        <img src="./img/svg/header-email-icon.svg" alt="logo" class="emailIconPic">
+                    </a>
+                </div>
+                <div class="contactIconItem tlContact">
+                    <a href="/" class="tlIconLink">
+                        TL
+                    </a>
+                </div>
+               </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+            <div class="wrapper mainWrap">
+                <section class="sideBar">
+                    <div class="sideBarIconItem">
+                        <a href="/" class="starIconLink">
+                            <img src="./img/svg/side-bar-star-icon.svg" alt="logo" class="starIconPic">
+                        </a>
+                    </div>
+                    <div class="sideBarIconItem">
+                        <a href="/" class="rectanIconLink">
+                            <img src="./img/svg/side-bar-rectan-icon.svg" alt="logo" class="rectanIconPic">
+                        </a>
+                    </div>
+                    <div class="sideBarIconItem">
+                        <a href="/" class="bellIconLink">
+                            <img src="./img/svg/side-bar-bell-icon.svg" alt="logo" class="bellIconPic">
+                        </a>
+                    </div>
+                </section>
+                <section class="dashboard">
+                     <div class="dashboardIntro">
+                    <h2 class="dashboardTittle">Dashboard</h2>
+                    <div class="date">
+                        <div class="dateBl">
+                        <p>Jan 1, 2020 - May 18, 2020</p>
+                        <div class="dateLinks">
+                            <a href="/" class="dateIconLink">
+                                <img src="./img/svg/date-line.svg" alt="date" class="dateIconPic">
+                            </a>
+                        </div>
+                        <div class="dateFilterLinks">
+                            <a href="/" class="dateFilterLink">
+                                <img src="./img/svg/date-filter.png" alt="date" class="dateFilterPic">
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                    <div class="dashboardContainer">
+                <div class="usersData">
+                <div class="dashboardMain">
+                    <div class="userChurns">
+                        <div class="userChurnsItem">
+                            <div class="topItem blockYellow topItemText">
+                                <div class="userIconItem">
+                                    <a href="/" class="userIconLink">
+                                        <img src="./img/svg/user-icon-yellow.svg" alt="logo" class="userIconPic">
+                                    </a>
+                                    User Churn
+                                </div>
+                                <p class="userChurnsMain">1907</p>
+                            </div>
+                            <div class="blockYellow bottomItemsBg">
+                                 <div class="bottomItemsTextYellow">Total</div>
+                            </div>
+                        </div>
+                        <div class="userChurnsItem">
+                            
+                                <div class="topItem blockBlue topItemText">
+                                    <div class="userIconItem">
+                                        <a href="/" class="userIconLink">
+                                            <img src="./img/svg/user-icon-blue.svg" alt="logo" class="userIconPic">
+                                        </a>
+                                        User Churn
+                                    </div>
+                                    <div class="userChurnsMain">0,5 %</div>
+                                </div>
+                                <div class="blockBlue bottomItemsBg">
+                                <div class="bottomItemsText">From 1.9%</div>
+                                </div>
+                            
+                        </div>
+                        <div class="userChurnsItem">
+                            
+                                <div class="topItem blockGreen topItemText">
+                                    <div class="userIconItem">
+                                        <a href="/" class="userIconLink">
+                                            <img src="./img/svg/user-icon-green.svg" alt="logo" class="userIconPic userIconPicGreen">
+                                        </a>
+                                        New Customers
+                                    </div>
+                                    <div class="userChurnsMain">48</div>
+                                </div>
+                                <div class="blockGreen bottomItemsBg">
+                                <div class="bottomItemsText">from 56</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="prospects">
+                        <div class="lines">
+                            <div class="lineOne"></div>
+                            <div class="lineTwo"></div>
+                            <div class="lineThree"></div>
+                        </div>
+                        <div class="prospectsSupportText">
+                            <div class="supportTextItem supportTextItemFirst">Prospects</div>
+                            <div class="supportTextItem supportTextItemSecond">Expired</div>
+                            <div class="supportTextItem supportTextItemThird">Active & Paid</div>
+                            <div class="supportTextItem supportTextItemFourth">Active & Free Trial</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="graphics">
+                    <div class="graphicItem">
+                        <div class="topPartGraphic">
+                            Paid Customers vs. All Registrans by platform
+                        </div>
+                        <div class="bottomPartCustomers">
+                            <div class="graficBlock">
+                            <div class="graphicBg">
+                                <div class="bgRow"></div>
+                                <div class="bgRow"></div>
+                                <div class="bgRow"></div>
+                            </div>
+                            <div class="graficPart">
+                                <div class="drawPart">
+                                <div class="firstindicator indicatorsItems">
+                                    <div class="firstMainIndicator mainIndicator"></div>
+                                    <div class="firstSecondaryIndicator secondaryIndicator"></div>
+                                </div>
+                                <div class="secondIndicator indicatorsItems">
+                                    <div class="secondMainIndicator mainIndicator"></div>
+                                    <div class="secondSecondaryIndicator secondaryIndicator"></div>
+                                </div>
+                                <div class="thirdIndicator indicatorsItems">
+                                    <div class="thirdMainIndicator mainIndicator"></div>
+                                    <div class="thirdSecondaryIndicator secondaryIndicator"></div>
+                                </div>
+                                <div class="fourIndicator indicatorsItems">
+                                    <div class="fourMainIndicator mainIndicator"></div>
+                                    <div class="fourSecondaryIndicator secondaryIndicator"></div>
+                                </div>
+                            </div>
+                            <div class="indicatorNames">
+                                <div class="firstName">
+                                    Blackboard<br/> Learn 
+                                </div>
+                                <div class="secondName">
+                                    Canvas
+                                </div>
+                                <div class="thirdName">
+                                    D2L
+                                </div>
+                                <div class="fourName">
+                                    Moodle
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="customerGrowth">
+                        <div class="namesOfIndicators">
+                        <div class="customerTittle">
+                            Customer Growth:
+                        </div>
+                        <div class="namesItem">Blackboard Learn</div>
+                        <div class="namesItem">2DL</div>
+                        <div class="namesItem">Canvas</div>
+                        <div class="namesItem">Moodle</div>
+                    </div>
+                    <div class="customerValue">
+                        <div class="customerValueItem">40%</div>
+                        <div class="customerValueItem">10%</div>
+                        <div class="customerValueItem">32%</div>
+                        <div class="customerValueItem">50%</div>
+                    </div>
+                    </div>
+                 </div>
+             </div>
+             <div class="circleGraphic">
+                <div class="graphicItem">
+                    <div class="topPartGraphic">
+                        Sales by product
+                    </div>
+                </div>
+                <div class="circleIntroPart">
+                         <div class="circleMustBeHere">
+                            <div class="container">
+                                <canvas id="myChart" width="138" height="138"></canvas>
+                              </div>
+                         </div>
+                         <div class="cirkleIndicators">
+                            <div class="circleGrowth">
+                                <div class="circleNamesOfIndicators">
+                                <div class="circleTittle">
+                                    Product growth:
+                                </div>
+                                <div class="circleNamesItem circleNamesItemFirst">IntelliBoard</div>
+                                <div class="circleNamesItem circleNamesItemSecond">IntelliCart</div>
+                                <div class="circleNamesItem circleNamesItemThird">InAttedance</div>
+                                <div class="circleNamesItem circleNamesItemFour">AYS Onboard</div>
+                                <div class="circleNamesItem circleNamesItemFive">AYS Evolve</div>
+                            </div>
+                        </div>
+                            <div class="circleValue">
+                                <div class="circleValueItem">40%</div>
+                                <div class="circleValueItem">10%</div>
+                                <div class="circleValueItem">32%</div>
+                                <div class="circleValueItem">50%</div>
+                                <div class="circleValueItem">50%</div>
+                            </div>
+                         </div>
+                </div>
+             </div>
+         </div>
+         <div class="tableWrapper">
+             <table>
+                 <caption class="topPartGraphic userTop">
+                     <div class="userLinks">
+                         <p>User Overview</p>
+                         <a href="/" class="tableIconLink">
+                             <img src="./img/svg/table-icon.svg" alt="logo" class="tableIconPic">
+                         </a>
+                     </div>
+                 </caption>
+                 <thead>
+                 <tr>
+                     <th scope="col">#</th>
+                     <th scope="col">First</th>
+                     <th scope="col">Last</th>
+                     <th scope="col">Handle</th>
+                     <th scope="col">Handle</th>
+                     <th scope="col">Handle</th>
+                     <th scope="col">Handle</th>
+                     <th scope="col">Handle</th>
+                     <th scope="col">Handle</th>
+                 </tr>
+                 </thead>
+                 <tbody>
+                 <tr>
+                     <td scope="nor">1</td>
+                     <td scope="nor">First</td>
+                     <td scope="nor">Last</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                 </tr>
+                 <tr>
+                     <td scope="nor">1</td>
+                     <td scope="nor">First</td>
+                     <td scope="nor">Last</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                 </tr>
+                 </tbody>
+                 <tfoot>
+                 <tr>
+                     <td scope="nor">1</td>
+                     <td scope="nor">First</td>
+                     <td scope="nor">Last</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                     <td scope="nor">Handle</td>
+                 </tr>
+                 </tfoot>
+             </table>
+         </div>
+        </div>
+     </section>
+ </div>
+</main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw==" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
